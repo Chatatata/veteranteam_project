@@ -14,7 +14,9 @@ class SigninView extends View {
     }
 
     singUpButtonTap(e) {
-        this.vm.pull(new SignupView(), true);
+        var signupView = new SignupView();
+        signupView.vm = this.vm;
+        this.vm.pull(signupView, true);
     };
 
     forgetButtonTap(e) {
@@ -47,7 +49,7 @@ class SigninView extends View {
                 <br/> <br/>
                 <button class="login">Login</button>
                 <input type="checkbox" checked="checked"/> <font face="verdana" color="green">save username?</font>
-                
+
             </div>
 
             <div class="container" style="background-color:#f1f1f1">
