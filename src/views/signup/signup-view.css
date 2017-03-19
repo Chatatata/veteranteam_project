@@ -42,3 +42,7 @@ button.back {
     width: 50%;
     font-family: verdana;
 }
+
+.signup-view {
+    overflow: scroll;
+}
