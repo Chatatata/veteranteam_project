@@ -5,8 +5,6 @@ import SignupOKView from '../signup/signup-OK-view';
 class SignupView extends View {
     constructor(vm) {
         super();
-        this.className = 'signup-view';
-        
     }
 
     onActivation() {
