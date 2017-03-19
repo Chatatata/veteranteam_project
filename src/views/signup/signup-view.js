@@ -3,7 +3,7 @@ import SigninView from '../signin/signin-view';
 import SignupOKView from '../signup/signup-OK-view';
 
 class SignupView extends View {
-    constructor(vm) {
+    constructor() {
         super();
     }
 
@@ -47,7 +47,7 @@ class SignupView extends View {
                     <input type="password" id="text" name="username" placeholder="password again" /><br /><br />
                     <div align="center" data-type="horizontal">
                     <button class="signup">sign up</button>
-           
+
             <div align="center">
                 <br/>
                 <button class="back">back</button>
